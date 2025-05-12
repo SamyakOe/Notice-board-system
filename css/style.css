@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+body{
+    font-family: "Oswald", sans-serif;
+    background-color: #E7E8D1;
+}
+.edit-head,
+.login-head{
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgb(232, 232, 232);
+}
+
+.loginbody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.loginbody form{
+    /* margin: 0 auto; */
+    width: 400px;
+    padding:34px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 5px;
+    height: fit-content;
+    box-shadow: 1px 2px 7px 4px rgb(171, 171, 171);
+}
+.input-container label{
+    display: block;
+    font-size: 1rem;
+    
+    text-transform: uppercase;
+    
+}
+.input-container input{
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(222, 222, 222);
+    outline: none;
+    
+}
+.input-container input::placeholder{
+    font-size: 1rem;
+    padding: 5px;
+    color: rgb(173, 173, 173);
+
+}
+.input-container{
+    margin-top: 17px;
+}
+.button {
+    text-align: center;
+    margin-top: 20px;   
+    
+}
+.button:hover{
+    transform: scale(1.05);
+    transition:all 8ms ease-in-out;
+}
+.button input{
+    height: 33px;
+    width: 120px;
+    font-size: 17px;
+    color: white;
+    background-color: #B85042;
+    border-radius: 15px;
+    border: none;
+    
+}
+.message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    padding:34px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 5px;
+    height: fit-content;
+    box-shadow: 1px 2px 7px 4px rgb(171, 171, 171);
+}
+.signup{
+    color: gray;
+    font-size: 0.9rem;
+    margin-top: 12px;
+}
+
+.signup a{
+    text-decoration: none;
+    color: #B85042;
+}

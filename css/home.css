@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+body{
+    font-family: "Oswald", sans-serif;
+    background-color: #E7E8D1;
+    margin: 0;
+    padding: 0;
+    
+}
+.main{
+    display: flex;
+}
+
+.sidebar{
+    position: sticky;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 10vw;
+    background-color: #B85042;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    min-width: 125px;
+}
+.welcome{
+    padding: 1rem;
+    border-bottom: white solid 1px;
+    display: flex;
+    justify-content: center;
+
+}
+.welcome p{
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    
+}
+.menu{
+    list-style: none;
+    margin: 0 auto;
+}
+.menu li{
+    padding: 1rem;
+    height: fit-content;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    border-bottom: rgb(228, 228, 228) solid 1px;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+.content{
+    width: 90vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.editbody{
+    padding: 3rem;
+    background-color: #f6f7e6;
+    height: fit-content;
+    border-radius: 1rem;
+    width: 50vw;
+    box-sizing: border-box;
+}
+.edit-head{
+    font-size: 2rem;
+    color: #000000;
+}
+.editbody form{
+    /* margin: 0 auto; */
+    width: 100%;
+    
+    box-sizing: border-box;
+    
+    border-radius: 5px;
+    height: fit-content;
+    
+}
+.input-container label{
+    display: block;
+    font-size: 1.2rem;
+    
+    text-transform: uppercase;
+    
+}
+.input-container input, .input-container textarea{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(222, 222, 222);
+    outline: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+.input-container textarea{
+    height: 4rem;
+}
+.input-container input::placeholder{
+    padding: 5px;
+    color: rgb(173, 173, 173);
+
+}
+.input-container{
+    margin-top: 17px;
+}
+.button {
+    text-align: center;
+    margin-top: 20px;   
+    
+}
+.button:hover{
+    transform: scale(1.05);
+    transition:all 8ms ease-in-out;
+}
+.button input{
+    height: 33px;
+    width: 120px;
+    font-size: 17px;
+    color: white;
+    background-color: #B85042;
+    border-radius: 15px;
+    border: none;
+    
+}
+.notice-body{
+    background-color: #f6f7e6;
+    height: fit-content;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 80vw;
+}
+.notice-head{
+    margin: 1rem;
+}
+.notice-lists{
+    background-color: #fffff5;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    
+}
+.notice-head{
+    font-size: 1.5rem;
+    color: #000000;
+}
+table ,th, td{
+    border-collapse: collapse;
+    font-size: 1rem;
+}
+th{
+    border-bottom: rgb(196, 194, 194) solid 1px;
+    text-align: left;
+}
+table.notice, table.notice th,table.notice td{
+    
+    padding: 0.4rem;
+}
+table{
+    width: 100%;
+}
+table.notice tr td a{
+    text-decoration: none;
+    color: black;
+}
+.notice-add{
+    margin-left: 1rem;
+    background-color: #B85042;
+    
+    width: fit-content;
+    padding: 0.4rem ;
+    border-radius: 0.5rem;
+    height: fit-content;
+    box-sizing: border-box;
+
+}
+.notice-add a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.add-notice{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+/* .add-notice input[type=text] ,.add-notice textarea{
+    border: none;
+    background-color: white;
+    padding: 0.5rem;
+    font-size: 1rem;
+} */
+.add-notice input[type=submit]{
+    width: fit-content;
+    padding: 0.3rem 0.5rem;
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    background-color: #B85042;
+}
