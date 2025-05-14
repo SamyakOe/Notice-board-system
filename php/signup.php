@@ -71,7 +71,7 @@
         </form>
         <div class="signup">
             Already have an account?
-            <a href="../index.php" class="signup-link">Login</a>
+            <a href="../login.php" class="signup-link">Login</a>
         </div>
     </div>
 </body>

@@ -1,7 +1,7 @@
 <?php
     session_start();
     if(!isset($_SESSION['email'])){
-        header("Location: index.php");
+        header("Location: login.php");
     }
     include('php/connection.php');
     $sql='SELECT * from notice';
